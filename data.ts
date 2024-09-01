@@ -1,0 +1,147 @@
+export type Product = {
+    id: number
+    name: string
+    price: number
+    size: string
+    image: string
+    category: string
+}
+
+export const products: Product[] = [
+    {
+        id: 3,
+        name: 'Fabrilife Mens Premium T-Shirt - Nasa',
+        price: 7.99,
+        size: 'l',
+        image: '/products/tshirt-1.jpg',
+        category: 't-shirts',
+    },
+    {
+        id: 4,
+        name: 'Mens Premium Sweatshirt - Drag',
+        price: 15.99,
+        size: 'xl',
+        image: '/products/sweatshirt-1.jpg',
+        category: 'sweatshirts',
+    },
+    {
+        id: 1,
+        name: 'Mens Premium Sweatshirt - Navy',
+        price: 13.99,
+        size: 's',
+        image: '/products/sweatshirt-2.jpg',
+        category: 'sweatshirts',
+    },
+    {
+        id: 5,
+        name: 'Mens Premium Sweatshirt - Olive',
+        price: 18.99,
+        size: 's',
+        image: '/products/sweatshirt-3.jpg',
+        category: 'sweatshirts',
+    },
+    {
+        id: 11,
+        name: 'Mens Premium T-Shirt - Tranquility',
+        price: 6.99,
+        size: 'l',
+        image: '/products/tshirt-2.jpg',
+        category: 't-shirts',
+    },
+    {
+        id: 7,
+        name: 'Mens Premium T-Shirt -Arcadia',
+        price: 8.99,
+        size: 'l',
+        image: '/products/tshirt-3.jpg',
+        category: 't-shirts',
+    },
+    {
+        id: 6,
+        name: 'Mens Premium T-Shirt- Thought',
+        price: 10.99,
+        size: 'm',
+        image: '/products/tshirt-4.jpg',
+        category: 't-shirts',
+    },
+    {
+        id: 8,
+        name: 'Premium Cuban Shirt - Maroon',
+        price: 14.99,
+        size: 'xl',
+        image: '/products/shirt-1.jpg',
+        category: 'shirts',
+    },
+    {
+        id: 12,
+        name: 'Premium Cuban Shirt - Nile Blue',
+        price: 16.99,
+        size: 'xl',
+        image: '/products/shirt-2.jpg',
+        category: 'shirts',
+    },
+    {
+        id: 9,
+        name: 'Premium Cuban Shirt - Stellar',
+        price: 19.99,
+        size: 's',
+        image: '/products/shirt-3.jpg',
+        category: 'shirts',
+    },
+    {
+        id: 10,
+        name: 'Premium Designer Edition Casual Shirt - Adventure',
+        price: 15.99,
+        size: 'm',
+        image: '/products/shirt-4.png',
+        category: 'shirts',
+    },
+    {
+        id: 2,
+        name: 'Premium Double PK Cotton Polo - Ice Berg Green',
+        price: 10.99,
+        size: 'xl',
+        image: '/products/polo-t-shirt-1.jpg',
+        category: 'polo-t-shirts',
+    },
+    {
+        id: 13,
+        name: 'Single Jersey Knitted Cotton Polo - Iceberg Green',
+        price: 11.99,
+        size: 'l',
+        image: '/products/polo-t-shirt-2.jpg',
+        category: 'polo-t-shirts',
+    },
+    {
+        id: 14,
+        name: 'Single Jersey Knitted Cotton Polo - Sky blue',
+        price: 9.99,
+        size: 'm',
+        image: '/products/polo-t-shirt-3.jpg',
+        category: 'polo-t-shirts',
+    },
+    {
+        id: 15,
+        name: 'Mens Premium Bomber Jacket - Camo',
+        price: 21.99,
+        size: 'm',
+        image: '/products/jacket-1.jpg',
+        category: 'jackets',
+    },
+    {
+        id: 16,
+        name: 'Mens Premium Jacket - Cryogenic (Black)',
+        price: 24.99,
+        size: 'l',
+        image: '/products/jacket-2.png',
+        category: 'jackets',
+    },
+    {
+        id: 17,
+        name: 'Mens Premium Jacket - Sizzler (Ash)',
+        price: 20.99,
+        size: 'xl',
+        image: '/products/jacket-3.jpg',
+        category: 'jackets',
+    },
+]
